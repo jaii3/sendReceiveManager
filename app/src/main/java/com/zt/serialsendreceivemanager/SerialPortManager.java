@@ -118,6 +118,12 @@ public class SerialPortManager {
     private boolean isSendSynchronousCmd = false;
 
 
+    /**
+     * @param device                设备类
+     * @param isSupportSyn          1：同步发送接收， 0：异步发送接收
+     * @param sleepTime             isSupportSyn = 0 异步： 接收数据间隔判断时间 （典型值25）
+     * @param onDataReceiveListener 收发数据执行接口
+     */
     public SerialPortManager(SerialPortDevice device, boolean isSupportSyn, int sleepTime, OnDataReceiveListener onDataReceiveListener) {
         this.device = device;
         setOnDataReceiveListener(onDataReceiveListener);
