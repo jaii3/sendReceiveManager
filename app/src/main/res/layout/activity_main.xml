@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutS6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-2dp"
+                    android:layout_marginTop="0dp"
+                    android:text="S6(485)："
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS6baud"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/baud"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS6DataBits"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/data"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS6Parity"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/parity"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/buttonSettingS6"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:text="关"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutS7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-2dp"
+                    android:layout_marginTop="0dp"
+                    android:text="S7(485)："
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS7baud"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/baud"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS7DataBits"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/data"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS7Parity"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/parity"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/buttonSettingS7"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:text="关"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutS8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-2dp"
+                    android:layout_marginTop="0dp"
+                    android:text="S8(485)："
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS8baud"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/baud"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS8DataBits"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/data"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS8Parity"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/parity"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/buttonSettingS8"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:text="关"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutS9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-2dp"
+                    android:layout_marginTop="0dp"
+                    android:text="S9(485)："
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS9baud"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/baud"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS9DataBits"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/data"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS9Parity"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/parity"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/buttonSettingS9"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:text="关"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutS0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-2dp"
+                    android:layout_marginTop="0dp"
+                    android:text="S0(232)："
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS0baud"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/baud"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS0DataBits"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/data"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS0Parity"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/parity"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/buttonSettingS0"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:text="关"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutS3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-2dp"
+                    android:layout_marginTop="0dp"
+                    android:text="S3(232)："
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS3baud"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/baud"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS3DataBits"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/data"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS3Parity"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/parity"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/buttonSettingS3"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:text="关"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutS4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-2dp"
+                    android:layout_marginTop="0dp"
+                    android:text="S4(232)："
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS4baud"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/baud"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS4DataBits"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/data"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS4Parity"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/parity"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/buttonSettingS4"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:text="关"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutS5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-2dp"
+                    android:layout_marginTop="0dp"
+                    android:text="S5(232)："
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS5baud"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/baud"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS5DataBits"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/data"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spS5Parity"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:entries="@array/parity"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/buttonSettingS5"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:text="关"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="0dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
