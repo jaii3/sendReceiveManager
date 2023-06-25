@@ -1,14 +1,6 @@
 package com.zt.serialsendreceivemanager;
 
-import static java.lang.System.arraycopy;
-import static java.lang.Thread.sleep;
-
-import android.util.Log;
-
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Future;
 
 /**
  * 项目名称    BaseProject
@@ -82,13 +74,12 @@ public abstract class CommunicationSerial {
         <T> void sendData(T data);
 
         <T> T receiveData();
+
         boolean isEnable();
 
-        boolean receiveParsing(String str,  byte[] rs);
+        boolean receiveParsing(String str, byte[] rs);
 
     }
-
-
 
 
 }

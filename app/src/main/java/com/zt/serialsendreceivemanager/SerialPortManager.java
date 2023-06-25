@@ -347,8 +347,7 @@ public class SerialPortManager {
             int iSpaceTimes = 0;
 
             try {
-                while (onDataReceiveListener != null &&
-                        !onDataReceiveListener.isClose() && mThreadStatusRunning.get()) {
+                while (onDataReceiveListener != null && !onDataReceiveListener.isClose() && mThreadStatusRunning.get()) {
                     // 串口关退出
                     // 如果要发送同步命令则需要暂停异步接收命令接收数据
                     while (onDataReceiveListener != null && isSendSynchronousCmd() && !onDataReceiveListener.isClose()) {

@@ -26,12 +26,6 @@
     <!--//生成aar包-->
     <application
         android:allowBackup="true"
-        android:supportsRtl="true">
-        <activity
-            android:name="com.zt.serialsendreceivemanager.MainActivity"
-            android:exported="true">
-
-        </activity>
-    </application>
+        android:supportsRtl="true" />
 
 </manifest>
